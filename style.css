@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+body{
+    text-align: center;
+    font-size: large;
+}
+
+.continer {
+  margin: 100px auto;
+  width: 450px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+label{
+    display: inline-block;
+    width: 140px;
+    font-weight: bold;
+    vertical-align: top;
+}
+form{
+    max-width: 500px;
+    margin: 20px auto;
+}
+input[type="number"],
+select{
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Diet Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="continer">
+    <h1>Health Diet Plan</h1>
+    <br>
+    <br>
+    <form id="dietForm">
+        <label>Height(cm):</label>
+        <input type="number" id="height">
+        <br>
+        <br>
+        <br>
+        <label>Weight(kg):</label>
+        <input type="number" id="weight">
+        <br>
+        <br>
+        <br>
+        <label>Age:</label>
+        <input type="number" id="age">
+        <br>
+        <br>
+        <br>
+        <label>Goal:</label>
+        <select id="goal">
+            <option value="xyz">-----select------</option>
+            <option value="gain">Gain Weight</option>
+            <option value="lose">Lose Weight</option>
+            <option value="maintain">Mentain Weight</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <button type="button" onclick="calculateBMI()">Get Plan</button>
+    </form>
+    <div id="result"></div>
+   </div>
+   <script src="script.js"></script> 
+</body>
+</html>
